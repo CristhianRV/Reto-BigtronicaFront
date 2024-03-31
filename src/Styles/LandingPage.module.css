@@ -1,0 +1,85 @@
+.container {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.containerProducts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	padding: 2rem;
+}
+
+.product {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	width: 25rem;
+	border-radius: 15px;
+	background-color: rgb(0, 52, 80);
+	transition: 0.4s;
+	position: relative;
+}
+.product:hover {
+	box-shadow: 0 0 2px 4px black;
+}
+
+.product img {
+	width: 25rem;
+	border-radius: 15px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.product img:hover {
+	box-shadow: 0 0 4px 4px white;
+	transform: translateY(-5px);
+}
+.favoritoButton {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: rgb(255, 233, 233);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	right: 15px;
+}
+.favoritoButton button {
+	background: url('../image/favoritos-negro24px.png');
+	width: 24px;
+	height: 24px;
+	border: none;
+	cursor: pointer;
+}
+
+.informationProduct {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	width: 100%;
+}
+
+.detailProduct {
+	display: flex;
+	justify-content: space-around;
+}
+.containerProducts h2,
+h4 {
+	text-align: center;
+	margin: 0;
+	color: white;
+}
+.containerProducts h2 {
+	font-family: 'Bebas Neue', sans-serif;
+	font-weight: 500;
+}
+
+.containerProducts h4 {
+	font-family: 'Francois One', sans-serif;
+	box-shadow: 0 0 0 0;
+}

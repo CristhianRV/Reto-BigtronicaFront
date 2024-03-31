@@ -1,0 +1,153 @@
+.container {
+	/* width: 100vw; */
+	/* min-height: 15vh; */
+}
+
+.header {
+	background-color: #212e2f;
+	height: 2rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 2rem;
+}
+
+.icons img {
+	width: 2.5rem !important;
+	cursor: pointer;
+}
+.information {
+	display: flex;
+	width: 23rem;
+	gap: 5px;
+}
+.information h5,
+p {
+	margin: auto;
+	cursor: pointer;
+	font-family: 'Francois One', sans-serif;
+	font-weight: 400;
+}
+.information h5:hover,
+p:hover {
+	filter: drop-shadow(0 0.4px 0.8px #fff);
+	/* box-shadow: 0 2px 4px #fff; */
+	text-decoration: underline;
+	transition: 0.4s;
+}
+
+.navBar {
+	background-color: rgb(0, 0, 0);
+	box-shadow: 0 0 2px 2.3px white;
+	padding: 1rem;
+	display: grid;
+	grid-template-columns: 15% 40% 40% 2.5% 2.5%;
+	align-items: center;
+	z-index: 2 !important;
+	position: relative;
+}
+.logo {
+	width: 10rem !important;
+}
+.filters {
+	display: flex;
+	align-items: center;
+}
+
+.filters h2 {
+	font-family: 'Bebas Neue', sans-serif;
+	font-weight: 500;
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+.filters h2:hover {
+	filter: drop-shadow(0 0.5px 1.2px #fff);
+	text-decoration: underline;
+
+	transition: 0.4s;
+}
+
+.containerSearch {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 50px;
+}
+
+.searchBar {
+	display: flex;
+	background-color: white;
+	padding: 9px 22px 9px 26px;
+	border-radius: 30px;
+	border: 2px solid #cad3dc;
+}
+
+.inputSearchBar {
+	border: none;
+	background: transparent;
+	font-weight: bold;
+	font-size: 16px;
+	padding-left: 24px;
+	background-image: url(../../../img/lupa.png);
+	width: 0px;
+	background-repeat: no-repeat;
+	transition: 0.6s;
+}
+.inputSearchBar:focus,
+.inputSearchBar:hover {
+	outline: none;
+	width: 300px;
+}
+
+.button {
+	border: none;
+	background-color: #03545e;
+	border-radius: 12px;
+}
+
+.button:hover {
+	background-color: #037280;
+}
+.button:active {
+	background-color: #06b2c9;
+}
+
+.ButtonsAction {
+	cursor: pointer;
+}
+.ButtonsAction:hover {
+	filter: drop-shadow(0 2px 2px #fb0000);
+}
+
+.footer {
+	background-color: #212e2f;
+	height: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 1 !important;
+}
+.information2 {
+	display: flex;
+	align-items: center;
+	width: 45rem;
+	gap: 5px;
+}
+
+.information2 button {
+	cursor: pointer;
+	font-family: 'Francois One', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	background: none;
+	border: none;
+	color: rgb(211, 205, 205);
+}
+.information2 button:hover {
+	color: white;
+	filter: drop-shadow(0 0.5px 1px #fff);
+	/* box-shadow: 0 2px 4px #fff; */
+	text-decoration: underline;
+	transition: 0.4s;
+}

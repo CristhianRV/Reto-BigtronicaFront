@@ -1,0 +1,53 @@
+.container {
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/* align-items: center; */
+	padding: 1rem 1rem 7px;
+}
+
+.items {
+	display: flex;
+	/* flex-direction: column; */
+	gap: 20px;
+}
+
+.information h3 {
+	color: white;
+	margin: 0;
+	font-family: 'Bebas Neue', sans-serif;
+	font-weight: 500;
+}
+.information p {
+	font-family: 'Francois One', sans-serif;
+	color: rgb(177, 177, 177);
+}
+.information p:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.connetion {
+	display: flex;
+	width: 40%;
+	justify-content: end;
+	gap: 5px;
+}
+.connetion img {
+	width: 45px;
+	height: 45px;
+	cursor: pointer;
+}
+.connetion img:hover {
+	transform: scale(1.2);
+	transition: 0.4s;
+}
+
+.ubication {
+	display: flex;
+	padding-top: 20px;
+	align-items: center;
+	font-family: 'Francois One', sans-serif;
+	color: rgb(177, 177, 177);
+}
